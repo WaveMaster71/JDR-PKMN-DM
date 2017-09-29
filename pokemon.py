@@ -63,6 +63,6 @@ class Pokemon:
 
         return Stat
 
-    def earn_xp(self):
-        self.xp += self.xp_courb(self.level)
+    def earn_xp(self,ennemy):
+        self.xp += self.xp_courb(self.ennemy.level)
         #conditions de changement de level à placer
